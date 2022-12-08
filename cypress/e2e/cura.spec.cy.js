@@ -1,11 +1,10 @@
-/// <reference types="Cypress" />
-
 describe('Cura make appointment', function(){
     it('Visit URL',function(){
         cy.visit("https://katalon-demo-cura.herokuapp.com/")
     });
 
-    it('#Click on appointment',function(){
+    
+    it('Click on appointment',function(){
         cy.get('#btn-make-appointment').click()
     });
 
